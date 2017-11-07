@@ -1,4 +1,4 @@
-# Jogo-da-Vida---Automato-Celular
+# Game of Life -- Cellular Automata
 
 Simulate life, using automata celular theory.
 
