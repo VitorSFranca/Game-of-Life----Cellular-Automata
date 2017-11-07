@@ -1,0 +1,51 @@
+<!doctype html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+</head>
+<style>
+    table, td {
+        border: 1px solid black;
+    }
+    </style>
+<body>
+    <div id="buttons">
+        <button id="iniciar">Iniciar</button>
+        <!-- <input type="number" id="nGeracoes" placeholder="Nº Gerações"></input> -->
+    <!-- </div>
+    <div> -->
+        <button id="reset">Reset</button>
+        <button id="parar" disabled=true>Parar</button>
+        <button id="random">Aleatório</button>
+    </div><br>
+    <div id="texts">
+    </div>
+    <div id="metrics">
+        <style type="text/css">
+            .tg  {border-collapse:collapse;border-spacing:0;}
+            .tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;}
+            .tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;}
+            </style>
+            <table class="tg">
+                <tr>
+                <th class="tg-031e"><label>População Inicial</label></th>
+                <th class="tg-031e"><label>População Atual</label></th>
+                <th class="tg-031e"><label>População Máxima</label></th>
+                <th class="tg-031e"><label>População Mínima</label></th>
+                <th class="tg-031e"><label>Geração Atual</label></th>
+                </tr>
+                <tr>
+                <td class="tg-031e"><label id="popIni"></label></td>
+                <td class="tg-031e"><label id="popAct"></label></td>
+                <td class="tg-031e"><label id="popMax"></label></td>
+                <td class="tg-031e"><label id="popMin"></label></td>
+                <td class="tg-031e"><label id="genAct"></label></td>
+                </tr>
+            </table><br>
+    </div>
+    <div id="enviroment"></div>
+    <div id="notes">
+
+    </div>
+    <script src = "src/automato.js"></script>
+</body>
+</html>
