@@ -1,6 +1,6 @@
 # Game of Life -- Cellular Automata
 
-Simulate life, using automata celular theory.
+Simulate life, using cellular automata theory.
 
 Only basic code to simulate life, next steps:
 * Idenfity patterns;
